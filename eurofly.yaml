@@ -1,0 +1,13 @@
+name: 'eurofly'
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - vega_datasets
+  - altair
+  - dash=2.8.*
+  - dash-bootstrap-components
+  - pandas
+  - os
+  - plotly
