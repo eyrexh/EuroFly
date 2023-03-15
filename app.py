@@ -54,7 +54,7 @@ def update_airport_plot(year, country):
     
     # Create a bar chart of the total number of flights for each airport
     fig = px.bar(grouped_data, x="Airport", y="Total", 
-                 title=f"Total Flights by Airport in {country} ✈️ {year}",
+                 title=f"What is the Busiest Airport in {country} ✈️ {year}",
                  text=grouped_data["Total"].tolist(),
                  color="Airport",
                  color_continuous_scale=px.colors.sequential.Plasma)
@@ -79,7 +79,7 @@ def update_flight_plot(year, country):
     
     # Create a line plot of the monthly number of departure and arrival flights
     fig = px.line(grouped_data, x="Month", y=["Departure", "Arrival", "Total"],
-                  title=f"Monthly Flights in {country} 🛩️ {year}")
+                  title=f"What is the Busiest Flying Month in {country} 🛩️ {year}")
     
     # Update the layout
     fig.update_layout(xaxis_title="Month", yaxis_title="Number of Flights")
