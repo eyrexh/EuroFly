@@ -64,7 +64,7 @@ The creators of `EuroFly` are students of the MDS Program at the University of B
 
 * [Eyre Hong](https://github.com/eyrexh)
 
-# Contributing
+## Contributing
 
 Feedback and suggestions are always welcome! 
 
