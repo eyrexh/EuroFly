@@ -15,7 +15,7 @@ To learn more about the app, you can jump to one of the sections below or keep s
 * [Preview and Description](#dashboard-preview-and-description)
 * [Data](#data)
 * [Installation](#installation)
-* [Contributor](#contributor)
+* [Contributors](#contributors)
 * [Contributing](#contributing)
 * [Support](#support)
 * [Code of Conduct](#code-of-conduct)
@@ -61,7 +61,7 @@ To install `EuroFly` locally, you can:
 
 5.  Copy the address and paste it in your browser to load the dashboard.
 
-## Contributor
+## Contributors
 
 The creators of `EuroFly` are students of the MDS Program at the University of British Columbia. This project was created for the DSCI 532 (Data Visualization II) course. 
 
@@ -71,7 +71,7 @@ The creators of `EuroFly` are students of the MDS Program at the University of B
 
 Feedback and suggestions are always welcome! 
 
-Please read [the contributing guidelines] (https://github.com/eyrexh/EuroFly/blob/main/CONTRIBUTING.md)to get started.
+Please read [the contributing guidelines](https://github.com/eyrexh/EuroFly/blob/main/CONTRIBUTING.md) to get started.
 
 ## Support
 
