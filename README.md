@@ -55,7 +55,7 @@ To install `EuroFly` locally, you can:
 
         conda activate eurofly
 
-4.  In the root of this repository run the following command:
+4.  In the `src/` folder of this repository run the following command:
 
         python app.py
 
