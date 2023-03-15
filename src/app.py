@@ -3,14 +3,10 @@ from dash import dcc
 from dash import html
 import pandas as pd
 import plotly.express as px
-import os
 import dash_bootstrap_components as dbc
 
-# Get the path of the data folder
-data_path = os.path.join(os.getcwd(), "data")
-
 # Load the flights dataset
-flights = pd.read_csv(os.path.join(data_path, "flights.csv"))
+flights = pd.read_csv("../data/flights.csv")
 
 # Define the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.YETI])
