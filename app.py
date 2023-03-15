@@ -18,13 +18,13 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.YETI])
 # Define the layout
 app.layout = html.Div([
     html.H1("🛫️ European Flight Data 🛬️"),
-    html.Label("Select a Year"),
+    html.Label("Select a Year 🕙"),
     dcc.Dropdown(
         id="year-dropdown",
         options=[{"label": year, "value": year} for year in flights["Year"].unique()],
         value=flights["Year"].min()
     ),
-    html.Label("Select a European Country"),
+    html.Label("Select a European Country 🗺️"),
     dcc.Dropdown(
         id="country-dropdown",
         options=[{"label": country, "value": country} for country in flights["Country"].unique()],
