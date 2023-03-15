@@ -1,6 +1,6 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 import pandas as pd
 import plotly.express as px
 import os
@@ -13,18 +13,18 @@ data_path = os.path.join(os.getcwd(), "data")
 flights = pd.read_csv(os.path.join(data_path, "flights.csv"))
 
 # Define the app
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SUPERHERO])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.YETI])
 
 # Define the layout
 app.layout = html.Div([
-    html.H1("🛫️ Flight Data 🛬️"),
-    html.Label("Select Year"),
+    html.H1("🛫️ European Flight Data 🛬️"),
+    html.Label("Select a Year"),
     dcc.Dropdown(
         id="year-dropdown",
         options=[{"label": year, "value": year} for year in flights["Year"].unique()],
         value=flights["Year"].min()
     ),
-    html.Label("Select Country"),
+    html.Label("Select a European Country"),
     dcc.Dropdown(
         id="country-dropdown",
         options=[{"label": country, "value": country} for country in flights["Country"].unique()],
@@ -32,7 +32,8 @@ app.layout = html.Div([
     ),
     dcc.Graph(id="airport-plot"),
     dcc.Graph(id="flight-plot")
-], className="container")
+], className="container",
+    style={'backgroundColor': '#ADD8E6'})
 
 
 # Define the callback to update the airport plot
