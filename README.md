@@ -10,6 +10,7 @@ To learn more about the app, you can jump to one of the sections below or keep s
 
 * [Purpose and Motivation](#purpose-and-motivation)
 * [Preview and Description](#dashboard-preview-and-description)
+* [Data](#data)
 * [Installation](#installation)
 * [Meet the Team](#meet-the-team)
 * [Contributing](#contributing)
@@ -26,6 +27,12 @@ This flight dashboard aims to provide insights into air travel trends by analyzi
 ## Description
 
 Our dashboard `EuroFly` provides users with interactive visualizations of flight data from various countries and airports. Users can select a year and a European country, and view the total number of flights for each airport in the selected country, as well as the monthly number of departures, arrival and total flights in all the airports for a selected country. The app aims to provide insights into global air travel patterns and trends, as well as serve as a tool for travel planning and research.
+
+## Data
+
+In this project, we are using the data collected from [Eurocontrol](https://ansperformance.eu/data/), including the data of flights information in Europe from January 1st, 2016 to May 5th, 2022. The dataset contains 688099 registers including daily number of departure flights, arrival flights and total number of flights for each airport in Europe.
+
+The data set is public and can be found in [tidytuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-07-12). Follow this link to access to the source dataset [flights.csv](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-07-12/flights.csv).
 
 ## Installation
 
