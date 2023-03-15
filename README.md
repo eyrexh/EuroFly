@@ -1,4 +1,4 @@
-# ✈️ EuroFly
+# 🛫️ EuroFly 🛬️
 
 Welcome! Thank you for visiting the EuroFly project repository.
 
