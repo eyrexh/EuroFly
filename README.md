@@ -20,9 +20,11 @@ To learn more about the app, you can jump to one of the sections below or keep s
 
 ## Purpose and Motivation
 
-Air travel is an integral part of modern life, connecting people and businesses across the world. With millions of flights taking off every day, understanding air travel trends is crucial for many industries, from tourism and hospitality to transportation and logistics.
+Air travel is an integral part of modern life, connecting people and businesses across the world. Flight aviation fans who enjoy visiting the different airports and checking the flights dream about having unforgettable experiences in an airport that is busy and contains various flights at a certain time! 
 
-This flight dashboard aims to provide insights into air travel trends by analyzing data from thousands of flights in European countries. By visualizing data on the number of flights and airports, users can gain a better understanding of how air travel has evolved over time and across different countries in Europe.
+Since traveling is expensive so exploring the busiest airports at their busiest time will be time efficient and money-saving! Our proposed dashboard would be a reliable tool that can help fans who love airports and flights to embark on memorable adventures in a European airport by providing them with the information. The proposed dashboard is a one-stop shop for finding relevant information like the number of flights in every airport in a European country to find the busiest airport. The departure, arrival and the total number of flights in a country per month to find the busiest time. We aim to enable fans to take informed decisions on which airport they can find the most airplanes to visit.
+
+Please read my detailed [`proposal.md`](https://github.com/eyrexh/EuroFly/blob/main/docs/proposal.md) to have a more general idea about how this dashboard can provide the solution for a specific scenario.
 
 ## Description
 
