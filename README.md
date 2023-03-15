@@ -1,10 +1,13 @@
+[<img src="https://img.shields.io/badge/License-MIT-yellow.svg"
+alt="License:MIT" />](https://opensource.org/licenses/MIT)
+
 # 🛫️ EuroFly 🛬️
 
 Welcome! Thank you for visiting the EuroFly project repository.
 
 If you are a fan of flights or just want to be prepared for your next coming flight to Europe, our app is for you! 
 
-[Link to the EuroFly app]()
+[Link to the EuroFly app](https://eurofly.onrender.com)
 
 To learn more about the app, you can jump to one of the sections below or keep scrolling.
 
