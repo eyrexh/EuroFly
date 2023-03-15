@@ -11,6 +11,8 @@ flights = pd.read_csv("../data/flights.csv")
 # Define the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.YETI])
 
+server = app.server
+
 # Define the layout
 app.layout = html.Div([
     html.H1("🛫️ European Flight Data 🛬️"),
